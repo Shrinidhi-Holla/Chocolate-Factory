@@ -4,10 +4,13 @@ top: 0px;
 background-color: transparent;
 padding-left: 50px;
 padding-right: 50px;
-padding-top: 10px;
+padding-top: 20px;
 width: 1180px;
 /* max-width: 100%; */
 /* padding: 50px; */
+}
+.logo-img{
+  height: 50px;
 }
 .navbar-items{
 display: flex;

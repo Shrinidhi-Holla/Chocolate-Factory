@@ -58,7 +58,7 @@ span.white-factory{
     padding: 12px;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 25px;
+    border-radius: 35px;
     background-color: #190d01;
     color: #AC6C2F;
     display: flex;
@@ -90,7 +90,7 @@ span.white-factory{
 }
 
 .browse-more-btn{
-    width: 170px;
+    width: 171px;
     padding: 12px;
     font-size: 16px;
     font-weight: 700;
@@ -109,4 +109,19 @@ span.white-factory{
 }
 .browse-more-btn:hover .right-arrow{
     transform: translateX(10px);
+}
+.hero-cards-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -50px;
+    z-index: 2;
+}
+.card-bg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    height: 200px;
+    background-color:#F6D19Ded;
+    border-radius: 40px;
+    z-index: 2;
 }

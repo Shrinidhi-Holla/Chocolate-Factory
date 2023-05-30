@@ -16,13 +16,17 @@ width: 1180px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+align-items: center;
 }
 .nav-links{
 display: flex;
-width: 450px;
+width: fit-content;
 flex-direction: row;
 justify-content: flex-start;
-gap: 100px;
+gap: 50px;
+height: fit-content;
+align-items: center;
+
 }
 
 li{
@@ -42,4 +46,23 @@ li::after {
   
   li:hover::after {
     width: 100%;
+  }
+  .login-btn{
+    width: 100px;
+    padding: 8px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 35px;
+    background-color: #190d01;
+    color: #AC6C2F;
+    gap: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .login-btn:hover,.login-icon:hover{
+    cursor: pointer;
+    color: white;
   }

@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  public loggedin:boolean=true;
+  // public loggedout:boolean=false;
+
+
+  Login() {
+this.loggedin=false;
+  }
+  Logout() {
+this.loggedin=true;
+  }
 }

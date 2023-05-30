@@ -11,9 +11,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 250px;
     padding-top: 50px;
 }
+.hero-header{
+    line-height: 50px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .hero-image{
     height: 250px;
 }
@@ -32,6 +42,86 @@ img{
     height: 100%;
 }
 .brown{
-    background-image: url("src/assets/brown-splash.png");
+    /* background-image: url("src/assets/brown-splash.png"); */
     background-position: 50% 20%;
+}
+span.white-factory{
+    color: silver
+}
+.hero-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.order-now-btn{
+    width: 170px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 35px;
+    background-color: #190d01;
+    color: #AC6C2F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 1s;
+}
+
+.order-now-btn:hover{
+    cursor: pointer;
+    color: white;
+    /* border: 1.5px solid black; */
+    /* outline: 1.5px solid black; */
+}
+.cart-icon{
+    color: rgb(99, 49, 4);
+    font-weight: 900;
+    transition: transform 1s;
+    background-color: orange;
+    border-radius: 50%;
+    height: fit-content;
+    padding: 5px;
+}
+.order-now-btn:hover .cart-icon{
+    transform: translateX(15px);
+    
+}
+
+.browse-more-btn{
+    width: 171px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    color: #AC6C2F;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+.browse-more-btn:hover{
+    cursor: pointer;
+    color: #190d01;
+}
+.right-arrow{
+    transition: 1s;
+}
+.browse-more-btn:hover .right-arrow{
+    transform: translateX(10px);
+}
+.hero-cards-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -50px;
+    z-index: 2;
+}
+.card-bg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    height: 200px;
+    background-color:#F6D19Ded;
+    border-radius: 40px;
+    z-index: 2;
 }

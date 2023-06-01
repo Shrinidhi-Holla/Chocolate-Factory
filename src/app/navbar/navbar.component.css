@@ -5,7 +5,7 @@ background-color: transparent;
 padding-left: 50px;
 padding-right: 50px;
 padding-top: 20px;
-width: 1180px;
+width: 1270px;
 /* max-width: 100%; */
 /* padding: 50px; */
 }
@@ -57,6 +57,25 @@ li::after {
     background-color: #190d01;
     color: #AC6C2F;
     gap: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .login-btn:hover,.login-icon:hover{
+    cursor: pointer;
+    color: white;
+  }
+.logout-btn{
+    width: 100px;
+    padding: 8px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 35px;
+    background-color: #190d01;
+    color: #AC6C2F;
+    gap: 3px;
     display: flex;
     justify-content: center;
     align-items: center;

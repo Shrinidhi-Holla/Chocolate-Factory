@@ -81,7 +81,32 @@ li::after {
     align-items: center;
     transition: 1s;
   }
-  .login-btn:hover,.login-icon:hover{
+  .logout-btn:hover,.logout-icon:hover{
     cursor: pointer;
     color: white;
   }
+
+  .cart{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #AC6C2F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 1s;
+  }
+  .cart:hover{
+    cursor: pointer;
+  }
+  .cart-icon{
+    color: rgb(99, 49, 4);
+    font-weight: 900;
+    transition: transform 1s;
+    border-radius: 50%;
+    height: fit-content;
+    padding: 5px;
+}

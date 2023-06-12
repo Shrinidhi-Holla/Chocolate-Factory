@@ -7,17 +7,17 @@
         <li class="items">Products</li>
         <li class="items">search</li>
         <li class="items">profile</li>
-        <button class="cart" #cartbtn *ngIf="!loggedin"><span class="material-symbols-outlined cart-icon">
+        <button class="cart" #cartbtn *ngIf="!loggedin" ><span class="material-symbols-outlined cart-icon" >
             shopping_cart
             </span></button>
-        <button class="login-btn" *ngIf="loggedin else logout" (click)="Login()">Login <span class="material-symbols-outlined login-icon">
+        <button class="login-btn" *ngIf="loggedin else logout" (click)="Login()" [routerLink]="['/login']">Login <span class="material-symbols-outlined login-icon">
             account_circle
             </span></button>
 
             
 
         <ng-template #logout>
-        <button class="logout-btn" (click)="Logout()">Logout <span class="material-symbols-outlined login-icon">
+        <button class="logout-btn" (click)="Logout()" [routerLink]="['']">Logout <span class="material-symbols-outlined login-icon">
             account_circle
             </span></button>
         </ng-template>

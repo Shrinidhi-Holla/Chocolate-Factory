@@ -1,0 +1,42 @@
+<div class="login-container">
+<div class="container">
+    <input type="radio" name="tab" id="signin" checked="checked" />
+    <input type="radio" name="tab" id="register" />
+    <div class="pages">
+        <div class="page">
+            <div class="input">
+                <div class="title"> USERNAME</div><input class="text" type="text" placeholder="" />
+            </div>
+            <div class="input password">
+                <div class="title"> Password</div><input class="text" type={{passwordtype}} placeholder=""  />
+                <button class="material-symbols-outlined" (click)="showpassword()">
+                    visibility
+                </button>
+            </div>
+            <div class="input"><input type="submit" value="LOGIN" /></div>
+        </div>
+        <div class="page signup">
+            <div class="input">
+                <div class="title"> NAME</div><input class="text" type="text" placeholder="" />
+            </div>
+            <div class="input">
+                <div class="title"> EMAIL</div><input class="text" type="text" placeholder="" />
+            </div>  
+            <div class="input password">
+                <div class="title"> Password</div><input class="text" type={{passwordtype}} placeholder=""  />
+                <button class="material-symbols-outlined" (click)="showpassword()">
+                    visibility
+                </button>
+            </div>
+            <div class="input"><input type="submit" value="REGISTER" /></div>
+        </div>
+    </div>
+    <div class="tabs">
+        <label class="tab" for="signin">
+            <div class="text">Sign In</div>
+        </label>
+        <label class="tab" for="register">
+            <div class="text">Register</div>
+        </label></div>
+</div>
+</div>

@@ -4,8 +4,11 @@ top: 0px;
 background-color: transparent;
 padding-left: 50px;
 padding-right: 50px;
-padding-top: 20px;
-width: 1270px;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 1436px;
+background-image: linear-gradient(to right, #F6D19Ded , #AC6C2F );
+
 /* max-width: 100%; */
 /* padding: 50px; */
 }

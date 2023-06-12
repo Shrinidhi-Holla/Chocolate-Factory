@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -16,5 +17,9 @@ this.loggedin=false;
   }
   Logout() {
 this.loggedin=true;
+  }
+
+  routeToLogin(){
+    // Router.
   }
 }

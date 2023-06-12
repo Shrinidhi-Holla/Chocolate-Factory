@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { DeliveryServiceComponent } from './delivery-service/delivery-service.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,7 @@ import { DeliveryServiceComponent } from './delivery-service/delivery-service.co
     NavbarComponent,
     LoginComponent,
     DeliveryServiceComponent
-  ],
+
   imports: [
     BrowserModule,
     AppRoutingModule
